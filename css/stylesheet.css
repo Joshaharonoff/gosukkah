@@ -1,31 +1,79 @@
-div#header {
-  position: relative;
-  }
-  div#header img {
-    border-radius: 30%;
-  }
-.people {
-  position: absolute;
-  top:95%;
-  left: 30%;
-}
-.heading { 
-  text-align: center;
-  clear: both;
+.about-us{
+  max-width:710px;
+  margin:auto;
 }
 
-div.member {
-  margin: 0 0 0 5em;
+.about-us #header img{
+  border-radius: 7%;
+  max-width:100%;
+  padding:auto;
+  }
+
+.founders-message {
+  
+  text-align:center;
+    
+}
+.about-gosukkah h2 { 
+  text-align: center;
+  margin-top:7%;
+}
+
+.about-gosukkah{
+  width:80%;
+  text-align:center;
+  margin:auto;
+    
+    
+}
+
+.our-team {
+  width:80%;
+
+  margin:auto;
+}
+
+.our-team h2{
+  text-align:center;
+  margin-top:7%
+}
+
+.our-team img{
+  width:100px;
+  height:100px;
+}
+
+.member {
+  margin: 0 0 0 7%;
   display: inline;
   float: left;
 }
-.subheading {
+
+.member img{
+  margin-left: 15%
+}
+.member .subheading {
   display: block;
-  padding-left: 10%;
+  text-align:center
+}
+
+.member .title{
+  text-align:center;
+  margin-top:-15px  
 }
 .bio_pics {
   border-radius:50%;
+  
 }
+
+.our-team-text{
+  padding-top:10px;
+  clear:both;
+  text-align: center;
+  font-size:1.5em
+ 
+}
+/*
 .p1 {
    width:33%;
    text-align: center;
@@ -33,6 +81,7 @@ div.member {
    font-weight: 500;
    clear: both; 
 }
+*/
 div#buttons {
   clear: both;
   width: 100%;
