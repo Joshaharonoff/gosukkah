@@ -6,30 +6,21 @@
 .about-us #header img{
   border-radius: 7%;
   max-width:100%;
-  padding:auto;
   }
 
 .founders-message {
-  
   text-align:center;
-    
 }
-.about-gosukkah h2 { 
-  text-align: center;
-  margin-top:7%;
-}
+
 
 .about-gosukkah{
   width:80%;
   text-align:center;
   margin:auto;
-    
-    
 }
 
 .our-team {
   width:80%;
-
   margin:auto;
 }
 
@@ -39,8 +30,9 @@
 }
 
 .our-team img{
-  width:100px;
-  height:100px;
+  width:120px;
+  height:120px;
+  border-radius:50%;
 }
 
 .member {
@@ -50,9 +42,9 @@
 }
 
 .member img{
-  margin-left: 15%
+padding-left:10%
 }
-.member .subheading {
+.member .name {
   display: block;
   text-align:center
 }
@@ -61,10 +53,12 @@
   text-align:center;
   margin-top:-15px  
 }
+/*
 .bio_pics {
-  border-radius:50%;
+  
   
 }
+*/
 
 .our-team-text{
   padding-top:10px;
@@ -82,26 +76,37 @@
    clear: both; 
 }
 */
-div#buttons {
+
+.our-products-and-services h2{
+  text-align:center;
+}
+.our-products-and-services #buttons {
   clear: both;
   width: 100%;
+  
 }
-div#buttons ul {
+.our-products-and-services #buttons ul {
   list-style-type: none;
+  border:1px;
+  border-color:black;
 }
-div#buttons ul li {
+.our-products-and-services #buttons ul li {
   display: inline;
-  float: left;
+/*  float: left;*/
   width: 15%;
   margin: .5em;
-  position: relative;
+/*  position: relative;*/
   left:32%;
-  background-color: lightblue
+  background-color: lightblue;
+  border:1px;
+  border-color:black;
+    
  
 }
 li.background {
-  background-color: white;
+  background-color: blue;
 }
+
 div#buttons ul li a{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1em;
